@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>Hellsing</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="atividade6.css">
+</head>
+
+<body>
+  <div class="campo">
+    <h1 id="titulo">Hellsing e seus "vilões" incríveis</h1>
+    <p id="subtitulo">Deixe sua opinião sobre o Alexander, o Walter, ou os nazistas(mesmo que sua opinião seja
+      questionável). </p>
+    <form>
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="seu email"><strong>Seu email</strong></label>
+          <input type="email" name="Seu email" id="Seu email">
+        </div>
+
+        <div class="campo">
+          <label for="nome do personagem"><strong>Nome do personagem</strong></label>
+          <input type="text" name="Nome do personagem" id="Nome do personagem">
+        </div>
+      </fieldset>
+
+      <div class="campo">
+        <label>O quanto seu personagem foi extremista?</label>
+        <label>
+          <input type="radio" name="O quanto seu personagem foi extremista?" value="pouco"><strong>Pouco</strong>
+        </label>
+        <label>
+          <input type="radio" name="O quanto seu personagem foi extremista?" value="muito"><strong>Muito</strong>
+        </label>
+        <label>
+          <input type="radio" name="O quanto seu personagem foi extremista?" value="absurdamente"><strong>Absurdamente</strong>
+        </label>
+      </div>
+
+      <div class="campo">
+        <label>O personagem morreu rápido?</label>
+        <select id="O personagem morreu rápido?">
+          <option selected disable value=""></option>
+          <option>Sim</option>
+          <option>Não</option>
+          <option>trupicou mais não caiu</option>
+        </select>
+      </div>
+
+      <fildset class="grupo">
+        <div class="campo">
+          <label><strong>O personagem é Nazista?</strong></label>
+          <input type="checkbox" id="O personagem é Nazista?" name="O personagem é Nazista?" value="Sim">Sim
+          <input type="checkbox" id="O personagem é Nazista?" name="O personagem é Nazista?" value="Não">Não
+        </div>
+      </fildset>
+
+      <button class="botão" type="submit">Concluído</button>
+
+    </form>
+  </div>
+</body>
+
+</html>
